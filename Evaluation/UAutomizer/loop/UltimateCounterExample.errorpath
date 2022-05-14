@@ -1,0 +1,8 @@
+Stem:
+[L8]               int reg_count = __VERIFIER_nondet_int();
+[L9]   COND FALSE  !(reg_count > 65534)
+[L11]              int i = 0 ;
+Loop:
+[L11]  COND TRUE  \read(reg_count)
+[L11]             i++
+End of lasso representation.
